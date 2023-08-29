@@ -10,7 +10,7 @@ public class PasswordGenerator {
     private static final String SPECIAL_CHARACTERS = "!@#$%^&*()-_=+[]{}|;:,.<>?";
 
     public static void main(String[] args) {
-        int length = 12; // Desired password length
+        int length = 8; // Desired password length
         String password = generatePassword(length);
         System.out.println("Generated Password: " + password);
     }
